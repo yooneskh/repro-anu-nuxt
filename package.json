@@ -1,0 +1,19 @@
+{
+  "name": "anu-test",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "serve": "nuxt dev --port 8080",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@unocss/nuxt": "0.55.0",
+    "nuxt": "3.6.5"
+  },
+  "dependencies": {
+    "@anu-vue/nuxt": "0.15.2"
+  }
+}
